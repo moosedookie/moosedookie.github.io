@@ -1,36 +1,30 @@
-# site settings
-title: Forty
-subtitle: by HTML5 UP
-email: moose@moosedookie.me
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/moosedookie.github.io" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Imperial
-state: MO
-zip_code: 55555
-country: United States of America
-phone: (555) 555-5555
+# Site settings
+title: Grayscale
+email: your-email@domain.com
+url: https://moosedookie.github.io/
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
 
-# social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/moosedookie
-gitlab_url: https://gitlab.com/
-googleplus_url: https://plus.google.com/
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/
+# Footer settings
+footer: Your Website
 
-# build settings
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+
+# Build settings
 markdown: kramdown
-
-sass:
-  style: compressed
+permalink: pretty
